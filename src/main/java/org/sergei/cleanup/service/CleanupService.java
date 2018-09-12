@@ -15,7 +15,7 @@ public class CleanupService {
     @Value("${file.tmp.folder}")
     private String filePath;
 
-    @Scheduled(fixedDelay = 86_000_000)
+    @Scheduled(fixedDelay = 18_000_000)
     public void cleanFolder() {
         File fileFolder = new File(filePath);
         fileFolder.mkdir();
