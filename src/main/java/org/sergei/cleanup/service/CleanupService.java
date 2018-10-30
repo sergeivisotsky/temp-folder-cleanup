@@ -1,3 +1,7 @@
+/*
+ * Copyright (c) 2018 Sergei Visotsky
+ */
+
 package org.sergei.cleanup.service;
 
 import org.springframework.beans.factory.annotation.Value;

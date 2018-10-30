@@ -1,3 +1,7 @@
+/*
+ * Copyright (c) 2018 Sergei Visotsky
+ */
+
 package org.sergei.cleanup.controller;
 
 import org.springframework.stereotype.Controller;
