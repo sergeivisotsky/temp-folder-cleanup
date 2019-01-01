@@ -1,7 +1,3 @@
-/*
- * Copyright (c) 2018 Sergei Visotsky
- */
-
 package org.sergei.cleanup.controller;
 
 import org.springframework.stereotype.Controller;
@@ -9,6 +5,9 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.ResponseBody;
 
+/**
+ * @author Sergei Visotsky
+ */
 @Controller
 @RequestMapping("/")
 public class WelcomeController {

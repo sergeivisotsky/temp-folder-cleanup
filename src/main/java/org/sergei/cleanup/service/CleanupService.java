@@ -1,7 +1,3 @@
-/*
- * Copyright (c) 2018 Sergei Visotsky
- */
-
 package org.sergei.cleanup.service;
 
 import org.springframework.beans.factory.annotation.Value;
@@ -13,6 +9,9 @@ import java.time.LocalDateTime;
 import java.time.ZoneId;
 import java.util.Date;
 
+/**
+ * @author Sergei Visotsky
+ */
 @Component
 public class CleanupService {
 
